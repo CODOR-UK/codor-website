@@ -20,7 +20,6 @@ jobs:
           username: ${{ secrets.GODADDY_FTP_USERNAME }}
           password: ${{ secrets.GODADDY_FTP_PASSWORD }}
           local-dir: './'
-          git-ftp-args: '--syncroot .'
           port: 21
           server-dir: '/'
           exclude: |
