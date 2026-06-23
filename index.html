@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Codor — Distributed power asset performance</title>
+    <meta name="description" content="Codor partners with owners and operators of flexible generation to improve availability, protect Capacity Market income, and reduce O&M cost through disciplined asset management and digital tooling." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#1F2A44" />
+    <link rel="stylesheet" href="styles.css" />
+  
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Christopher Cody</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Christopher Cody</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ContentTypeId msdt:dt="string">0x010100B21C768FCAA30B4690AA3FCE0AE64EFC</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="Codor home">
+          <span class="brand-text">CODOR<span style="color:#3FFFAA;">.</span></span>
+        </a>
+        <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+          <span class="nav-toggle-bar"></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#solutions">Solutions</a>
+          <a href="#approach">Approach</a>
+          <a href="#contact" class="cta-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner reveal">
+          <div class="hero-copy">
+            <h1>Maximising performance across distributed power assets</h1>
+              <p class="lead">
+                We partner with owners and operators of flexible generation to improve availability,
+                protect Capacity Market income, and reduce O&amp;M cost per MWh through disciplined asset management and digital tooling.
+              </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#solutions">Explore solutions</a>
+              <a class="btn btn-ghost" href="#contact">Talk to us</a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <canvas id="energyCanvas"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <section id="control" class="control">
+        <div class="control-gradient" aria-hidden="true"></div>
+        <div class="container control-sticky">
+          <h2 class="control-title">Take control of your <span class="word-wrap"><span id="controlWord" class="word current">Assets</span></span></h2>
+          <p class="control-sub">Unlock visibility and control across your operations.</p>
+        </div>
+        <div class="control-panels">
+          <div class="control-panel" data-word="Assets"></div>
+          <div class="control-panel" data-word="Data"></div>
+          <div class="control-panel" data-word="Processes"></div>
+          <div class="control-panel" data-word="Bottom line"></div>
+        </div>
+      </section>
+
+      <section id="intro-bridge" class="intro-bridge" aria-hidden="true">
+        <div class="container intro-sticky">
+          <h2 class="intro-title">
+            <span class="intro-left">Introducing</span>
+            <span class="intro-right">CODOR<span style="color: #3FFFAA;">.</span></span>
+          </h2>
+        </div>
+      </section>
+
+     
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="eyebrow">About Codor</div>
+          <h2>Built for owners and operators of flexible generation</h2>
+            <p>
+              Codor focuses on gas recip fleets, peakers, and other distributed assets where Capacity Market obligations,
+              traded revenue and O&amp;M cost all intersect. We bring disciplined asset management, operational governance,
+              and digital tooling that works in the real world.
+            </p>
+          <div class="grid features">
+            <div class="card reveal">
+              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12h6l-2 8 10-12h-6l2-8z"/></svg></span>Strategy → outcomes</h3>
+              <p>Roadmaps tied to measurable results.</p>
+            </div>
+            <div class="card reveal">
+              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm8 4a8 8 0 1 1-16 0M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></span>Delivery at pace</h3>
+              <p>De‑risk complexity, accelerate benefits.</p>
+            </div>
+            <div class="card reveal">
+              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v4H4zM7 13h10v4H7z"/></svg></span>Digital foundations</h3>
+              <p>Platforms that connect markets and assets.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="solutions" class="section alt">
+        <div class="container">
+          <div class="eyebrow">What we do</div>
+          <h2>Solutions that create operational leverage</h2>
+          <div class="grid solutions">
+            <div class="card reveal">
+              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v4H4zM4 10h10v4H4zM4 16h7v4H4z"/></svg></span>Programme delivery</h3>
+              <p>End‑to‑end leadership for complex tech and change.</p>
+            </div>
+            <div class="card reveal">
+              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 6l2 4 4 2-4 2-2 4-2-4-4-2 4-2z"/></svg></span>Operational excellence</h3>
+              <p>Lean workflows and automation to reduce cost‑to‑serve.</p>
+            </div>
+            <div class="card reveal">
+              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 7h8v4H3zM13 7h8v4h-8zM3 13h8v4H3zM13 13h8v4h-8z"/></svg></span>Digital platforms</h3>
+              <p>Composable services, APIs, and integrations.</p>
+            </div>
+            <div class="card reveal">
+              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 16l4-4 4 4 4-4 4 4M4 8h16"/></svg></span>Data & AI</h3>
+              <p>Forecasting, trading and operations decision support.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+ 
+      <section id="approach" class="section alt">
+  <div class="container">
+    <div class="eyebrow">How we work</div>
+    <h2>Pragmatic, transparent, accountable</h2>
+    <ol class="steps">
+      <span class="blob" id="stepsBlob" aria-hidden="true"></span>
+      <li class="reveal">
+        <h3>Discover</h3>
+        <p>Align on goals, constraints, and KPIs. Establish a clear baseline and governance.</p>
+      </li>
+      <li class="reveal">
+        <h3>Design</h3>
+        <p>Shape operating model, architecture, and delivery plan with risk-based prioritisation.</p>
+      </li>
+      <li class="reveal">
+        <h3>Deliver</h3>
+        <p>Execute with incremental value release, quality gates, and stakeholder visibility.</p>
+      </li>
+      <li class="reveal">
+        <h3>Evolve</h3>
+        <p>Embed capability, monitor outcomes, and iterate to sustain performance.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+
+      <section id="contact" class="section contact">
+        <div class="container contact-inner reveal">
+          <div>
+            <div class="eyebrow">Contact</div>
+            <h2>Ready to accelerate?</h2>
+            <p>Tell us about your goals. We typically respond within one business day.</p>
+            <ul class="contact-meta">
+              <li>
+                <span class="c-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 10l8-6 8 6v10H4zM8 20v-6h8v6"/></svg></span>
+                Suite 606, West Village 114 Wellington Street, Leeds, United Kingdom, LS1 1BA
+              </li>
+              <li>
+                <span class="c-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM6 8l6 4 6-4"/></svg></span>
+                <a href="mailto:info@codor.uk">info@codor.uk</a>
+              </li>
+             </ul>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </div>
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-row grid-2">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required placeholder="Jane Doe" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required placeholder="jane@company.com" />
+              </div>
+            </div>
+            <div class="form-row grid-2">
+              <div class="field">
+                <label for="company">Company</label>
+                <input id="company" name="company" type="text" placeholder="Acme Energy" />
+              </div>
+              <div class="field">
+                <label for="role">Role</label>
+                <input id="role" name="role" type="text" placeholder="Programme Director" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="topic">Topic</label>
+                <select id="topic" name="topic">
+                  <option>Programme delivery</option>
+                  <option>Operational excellence</option>
+                  <option>Digital platforms</option>
+                  <option>Data & AI</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="A brief summary of your goals and timelines..."></textarea>
+              </div>
+            </div>
+            <div class="form-row">
+              <label class="checkbox">
+                <input type="checkbox" id="consent" name="consent" required />
+                <span>I agree to be contacted about my enquiry</span>
+              </label>
+            </div>
+            <div class="form-row">
+              <button type="submit" class="btn btn-primary">Send enquiry</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Codor</span>
+        <span class="footer-note">Distributed power asset performance</span>
+        <nav class="footer-links">
+          <a href="/privacy.html">Privacy</a>
+          <a href="/cookies.html">Cookies</a>
+          <a href="/terms.html">Terms</a>
+        </nav>
+      </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
