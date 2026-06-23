@@ -1,22 +1,51 @@
 <!doctype html>
 <html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Codor — Distributed power asset performance</title>
-    <meta name="description" content="Codor partners with owners and operators of flexible generation to improve availability, protect Capacity Market income, and reduce O&M cost through disciplined asset management and digital tooling." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="theme-color" content="#1F2A44" />
-    <link rel="stylesheet" href="styles.css" />
-  
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>CODOR: When operations are unstable, everything feels harder than it should</title>
+  <meta name="description" content="For many organisations maintenance spend and effort has become de-linked from the biggest threats to availability and equipment reliability.">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.codor.uk/" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Open Graph (social previews) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="CODOR: When operations are unstable, everything feels harder than it should" />
+  <meta property="og:description" content="For many organisations maintenance spend and effort has become de-linked from the biggest threats to availability and equipment reliability." />
+  <meta property="og:url" content="https://www.codor.uk/" />
+  <!-- Point this at a 1200x630-ish image you upload to the root -->
+  <meta property="og:image" content="https://www.codor.uk/og-image.png" />
+
+  <!-- Twitter card (nice preview on X/Twitter) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CODOR: When operations are unstable, everything feels harder than it should" />
+  <meta name="twitter:description" content="For many organisations maintenance spend and effort has become de-linked from the biggest threats to availability and equipment reliability." />
+  <meta name="twitter:image" content="https://www.codor.uk/og-image.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles.css" />
+
 <!--[if gte mso 9]><xml>
 <mso:CustomDocumentProperties>
 <mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
 <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Christopher Cody</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
-<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Christopher Cody</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Aaron Dorling</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
 <mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
 <mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
 <mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
@@ -28,238 +57,332 @@
 </mso:CustomDocumentProperties>
 </xml><![endif]-->
 </head>
+
+
   <body>
-    <header class="site-header" id="top">
+    <header class="site-header">
       <div class="container header-inner">
-        <a href="#top" class="brand" aria-label="Codor home">
-          <span class="brand-text">CODOR<span style="color:#3FFFAA;">.</span></span>
+        <a href="/index.html" class="brand" aria-label="Codor home">
+          <span class="brand-text">CODOR<span class="brand-dot">.</span></span>
         </a>
+
         <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
           <span class="nav-toggle-bar"></span>
           <span class="sr-only">Toggle navigation</span>
         </button>
+
+        <!-- Trimmed nav for partial go-live (Intro, Team, Terms, Privacy, Contact) -->
         <nav class="primary-nav" id="primary-nav" aria-label="Primary">
-          <a href="#about">About</a>
-          <a href="#solutions">Solutions</a>
-          <a href="#approach">Approach</a>
-          <a href="#contact" class="cta-link">Contact</a>
+          <a href="/index.html">Introduction</a>
+          <a href="/team.html">Team</a>
+          <a href="/blog.html">Blog</a>
+          <a href="/index.html#contact">Contact</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <section class="hero">
-        <div class="container hero-inner reveal">
-          <div class="hero-copy">
-            <h1>Maximising performance across distributed power assets</h1>
-              <p class="lead">
-                We partner with owners and operators of flexible generation to improve availability,
-                protect Capacity Market income, and reduce O&amp;M cost per MWh through disciplined asset management and digital tooling.
-              </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="#solutions">Explore solutions</a>
-              <a class="btn btn-ghost" href="#contact">Talk to us</a>
+      <!-- HERO -->
+      <section class="page-hero">
+        <div class="container">
+          <h1>When operations are unstable, everything feels harder than it should</h1>
+          <p class="lead">
+            For many organisations maintenance spend and effort has become de-linked from the biggest threats to availability
+            and equipment reliability.
+          </p>
+        </div>
+      </section>
+
+      <!-- INTRO REALITY -->
+      <section class="section">
+        <div class="container">
+          <p>
+            Plant performance drifts uncontrolled towards:
+          </p>
+
+          <ul class="list">
+            <li>Excessive call-outs</li>
+            <li>Increasing spend on labour and parts</li>
+            <li>Expensive breakdowns</li>
+            <li>Repeat failures</li>
+            <li>No identification of causes</li>
+            <li>Increased safety events</li>
+          </ul>
+
+          <p>
+            These negatively impact not only the financial performance of the organisation but the morale of the team.
+            Maintenance turns to a number of “workarounds”, temporary fixes and 11th hour heroics.
+            Operations become jaded about the performance of the maintenance organisation and the equipment they operate,
+            practices slip, skills are lost and you drift towards folk lore and complacency.
+          </p>
+        </div>
+      </section>
+
+      <!-- WHAT INSTABILITY LOOKS LIKE -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">What instability actually looks like on the ground</h2>
+
+          <p>
+            Organisations can become pinned between a combination of high impact failures of critical equipment and/or the
+            death by a thousand cuts of poor equipment reliability constantly leaching maintenance hours away from planned
+            maintenance.
+          </p>
+
+          <p>
+            The constant trickle of failures is hard to manage, quantify and eliminate. This all leaves very little time to
+            conduct effective Root Cause Analysis on the high impact failures.
+          </p>
+
+          <p>
+            You are constantly told that “Condition Monitoring” or another “Dashboard” are the answer, but it becomes
+            another screen nobody has any time to look at and action. The intent is there, everyone wants to improve but
+            the organisation falls from one disaster to the next waiting for the storm to break; which of course it never
+            does.
+          </p>
+
+          <p>
+            The constant stream of schedule breaking work displaces the planned maintenance that is there to mitigate
+            equipment failure, pushing things closer and closer to the brink. The plant being online today is a success,
+            not the established norm.
+          </p>
+
+          <p>
+            Leaders do what they can to change methods, teams and strategy but they can’t target the problem clearly. They
+            see the gap but not the real causes.
+          </p>
+
+            <p class="emphasis">This is not a lack of technology.</p>
+            <p class="emphasis">This is not a lack of effort and care.</p>
+            <p class="emphasis">This is not a lack of leadership.</p>
+            <p class="emphasis">This is systemic instability.</p>
+        </div>
+      </section>
+
+      <!-- WHY IT DOESN'T RESOLVE -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Why this doesn’t resolve itself</h2>
+
+          <p>Most teams are capable, committed, and working hard. The issue isn’t effort.</p>
+
+          <p>When systems are unstable:</p>
+
+          <ul class="list">
+            <li>Failures are fixed, not removed</li>
+            <li>Learning is crowded out by urgency</li>
+            <li>Decisions are made with partial information</li>
+            <li>Improvements don’t hold because the operating rhythm hasn’t changed</li>
+          </ul>
+
+          <p>
+            Over time, the organisation adapts to instability instead of correcting it.
+          </p>
+        </div>
+      </section>
+
+      <!-- ROLE CODOR PLAYS -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">The role CODOR plays</h2>
+
+          <p class="emphasis">CODOR was founded to solve these problems, with action not recommendations.</p>
+
+          <p>
+            We provide stability in asset performance by targeting the causes of instability and working with operators to
+            root them out once and for all.
+          </p>
+
+          <p>
+            Once we have stemmed the flow of breakdowns and high impact events, we can work together to build long term
+            performance improvement.
+          </p>
+
+          <p>We are not providing benchmarking studies.</p>
+          <p>
+            We are not providing dry generic reports that tell you what you already know and leave you with all of the real
+            work.
+          </p>
+          <p>We are not selling new equipment, software or systems.</p>
+          <p>We are not selling textbooks.</p>
+
+          <p>
+            We want to solve your problems today, so that you won’t need us tomorrow. This is in the trenches investigating
+            failures while your technicians try to get you back online. This is systematic identification, prioritisation
+            and elimination of Bad Actor equipment. This is reducing the risk you manage quantifiably and permanently.
+          </p>
+        </div>
+      </section>
+
+      <!-- WHAT CODOR IS / IS NOT -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">What CODOR is, and is not</h2>
+
+          <div class="grid-2">
+            <div class="card">
+              <h3>CODOR is</h3>
+              <ul class="list">
+                <li>Root Cause focused</li>
+                <li>Fact and data led</li>
+                <li>Calm, direct, and technically grounded</li>
+                <li>Experienced in Operations, Engineering and Maintenance</li>
+                <li>Independent of OEMs, EPCs, and vendors</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>CODOR is not</h3>
+              <ul class="list">
+                <li>A generic consultancy</li>
+                <li>A condition monitoring provider</li>
+                <li>A software or dashboard company</li>
+                <li>A design or engineering house</li>
+              </ul>
             </div>
           </div>
-          <div class="hero-visual" aria-hidden="true">
-            <canvas id="energyCanvas"></canvas>
-          </div>
-        </div>
-      </section>
 
-      <section id="control" class="control">
-        <div class="control-gradient" aria-hidden="true"></div>
-        <div class="container control-sticky">
-          <h2 class="control-title">Take control of your <span class="word-wrap"><span id="controlWord" class="word current">Assets</span></span></h2>
-          <p class="control-sub">Unlock visibility and control across your operations.</p>
-        </div>
-        <div class="control-panels">
-          <div class="control-panel" data-word="Assets"></div>
-          <div class="control-panel" data-word="Data"></div>
-          <div class="control-panel" data-word="Processes"></div>
-          <div class="control-panel" data-word="Bottom line"></div>
-        </div>
-      </section>
-
-      <section id="intro-bridge" class="intro-bridge" aria-hidden="true">
-        <div class="container intro-sticky">
-          <h2 class="intro-title">
-            <span class="intro-left">Introducing</span>
-            <span class="intro-right">CODOR<span style="color: #3FFFAA;">.</span></span>
-          </h2>
-        </div>
-      </section>
-
-     
-
-      <section id="about" class="section">
-        <div class="container">
-          <div class="eyebrow">About Codor</div>
-          <h2>Built for owners and operators of flexible generation</h2>
-            <p>
-              Codor focuses on gas recip fleets, peakers, and other distributed assets where Capacity Market obligations,
-              traded revenue and O&amp;M cost all intersect. We bring disciplined asset management, operational governance,
-              and digital tooling that works in the real world.
+            <p class="section-closure">
+              Our role is to stabilise how assets perform in the real world
+              and create the conditions where improvement actually sticks.
             </p>
-          <div class="grid features">
-            <div class="card reveal">
-              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12h6l-2 8 10-12h-6l2-8z"/></svg></span>Strategy → outcomes</h3>
-              <p>Roadmaps tied to measurable results.</p>
-            </div>
-            <div class="card reveal">
-              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm8 4a8 8 0 1 1-16 0M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></span>Delivery at pace</h3>
-              <p>De‑risk complexity, accelerate benefits.</p>
-            </div>
-            <div class="card reveal">
-              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v4H4zM7 13h10v4H7z"/></svg></span>Digital foundations</h3>
-              <p>Platforms that connect markets and assets.</p>
-            </div>
-          </div>
+
         </div>
       </section>
 
-
-
-      <section id="solutions" class="section alt">
+      <!-- TRIGGERS -->
+      <section class="section">
         <div class="container">
-          <div class="eyebrow">What we do</div>
-          <h2>Solutions that create operational leverage</h2>
-          <div class="grid solutions">
-            <div class="card reveal">
-              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v4H4zM4 10h10v4H4zM4 16h7v4H4z"/></svg></span>Programme delivery</h3>
-              <p>End‑to‑end leadership for complex tech and change.</p>
-            </div>
-            <div class="card reveal">
-              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 6l2 4 4 2-4 2-2 4-2-4-4-2 4-2z"/></svg></span>Operational excellence</h3>
-              <p>Lean workflows and automation to reduce cost‑to‑serve.</p>
-            </div>
-            <div class="card reveal">
-              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 7h8v4H3zM13 7h8v4h-8zM3 13h8v4H3zM13 13h8v4h-8z"/></svg></span>Digital platforms</h3>
-              <p>Composable services, APIs, and integrations.</p>
-            </div>
-            <div class="card reveal">
-              <h3><span class="h-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 16l4-4 4 4 4-4 4 4M4 8h16"/></svg></span>Data & AI</h3>
-              <p>Forecasting, trading and operations decision support.</p>
-            </div>
-          </div>
+          <h2 class="section-title">When organisations typically call us</h2>
+
+          <p>Organisations usually engage CODOR when operational instability becomes visible, recurring, or commercially significant.</p>
+          <p>Common triggers include:</p>
+
+          <ul class="list">
+            <li>Leadership change or restructuring</li>
+            <li>Persistent bad actors dominating attention</li>
+            <li>Rising maintenance costs without corresponding improvements in reliability</li>
+            <li>Repeated outages or missed dispatch opportunities</li>
+            <li>Loss of confidence in “normal” performance</li>
+            <li>Significant changes in Operating context</li>
+          </ul>
+
+          <p>
+            Often the underlying issue is not a single failure.
+          </p>
+          <p>It is a problem that repeatedly returns, consumes management attention, and continues to affect reliability, dispatch performance, or margin despite previous attempts to resolve it.</p>
         </div>
       </section>
 
- 
-      <section id="approach" class="section alt">
-  <div class="container">
-    <div class="eyebrow">How we work</div>
-    <h2>Pragmatic, transparent, accountable</h2>
-    <ol class="steps">
-      <span class="blob" id="stepsBlob" aria-hidden="true"></span>
-      <li class="reveal">
-        <h3>Discover</h3>
-        <p>Align on goals, constraints, and KPIs. Establish a clear baseline and governance.</p>
-      </li>
-      <li class="reveal">
-        <h3>Design</h3>
-        <p>Shape operating model, architecture, and delivery plan with risk-based prioritisation.</p>
-      </li>
-      <li class="reveal">
-        <h3>Deliver</h3>
-        <p>Execute with incremental value release, quality gates, and stakeholder visibility.</p>
-      </li>
-      <li class="reveal">
-        <h3>Evolve</h3>
-        <p>Embed capability, monitor outcomes, and iterate to sustain performance.</p>
-      </li>
-    </ol>
-  </div>
-</section>
 
+      <!-- HOW WE WORK -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">How we work</h2>
 
-      <section id="contact" class="section contact">
-        <div class="container contact-inner reveal">
-          <div>
-            <div class="eyebrow">Contact</div>
-            <h2>Ready to accelerate?</h2>
-            <p>Tell us about your goals. We typically respond within one business day.</p>
-            <ul class="contact-meta">
-              <li>
-                <span class="c-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 10l8-6 8 6v10H4zM8 20v-6h8v6"/></svg></span>
-                Suite 606, West Village 114 Wellington Street, Leeds, United Kingdom, LS1 1BA
-              </li>
-              <li>
-                <span class="c-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM6 8l6 4 6-4"/></svg></span>
-                <a href="mailto:info@codor.uk">info@codor.uk</a>
-              </li>
-             </ul>
-            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          <p>We work with a small number of critical assets and decisions at a time.</p>
+          <p>Our approach is simple and disciplined:</p>
+
+          <div class="grid-2">
+            <div class="card">
+              <h3>Diagnose</h3>
+              <p>Establish a loss map and performance baseline people actually trust.</p>
+            </div>
+
+            <div class="card">
+              <h3>Prioritise</h3>
+              <p>Focus on the failures and risks that materially affect output, safety, and confidence.</p>
+            </div>
+
+            <div class="card">
+              <h3>Stabilise</h3>
+              <p>Eliminate chronic failure modes and embed operating routines that hold.</p>
+            </div>
+
+            <div class="card">
+              <h3>Improve</h3>
+              <p>Implement self-sustaining performance improvement processes.</p>
+            </div>
           </div>
-          <form id="contactForm" class="contact-form" novalidate>
-            <div class="form-row grid-2">
-              <div class="field">
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text" required placeholder="Jane Doe" />
-              </div>
-              <div class="field">
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" required placeholder="jane@company.com" />
-              </div>
-            </div>
-            <div class="form-row grid-2">
-              <div class="field">
-                <label for="company">Company</label>
-                <input id="company" name="company" type="text" placeholder="Acme Energy" />
-              </div>
-              <div class="field">
-                <label for="role">Role</label>
-                <input id="role" name="role" type="text" placeholder="Programme Director" />
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="field">
-                <label for="topic">Topic</label>
-                <select id="topic" name="topic">
-                  <option>Programme delivery</option>
-                  <option>Operational excellence</option>
-                  <option>Digital platforms</option>
-                  <option>Data & AI</option>
-                  <option>Other</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" placeholder="A brief summary of your goals and timelines..."></textarea>
-              </div>
-            </div>
-            <div class="form-row">
-              <label class="checkbox">
-                <input type="checkbox" id="consent" name="consent" required />
-                <span>I agree to be contacted about my enquiry</span>
-              </label>
-            </div>
-            <div class="form-row">
-              <button type="submit" class="btn btn-primary">Send enquiry</button>
-            </div>
-          </form>
+
+          <p class="section-closure"> This is not about adding complexity. It’s about removing uncertainty.</p>
+
+        </div>
+      </section>
+
+      <!-- WHAT CLIENTS GAIN -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">What clients gain</h2>
+
+          <p>When operations stabilise, the change is tangible.</p>
+
+          <ul class="list">
+            <li>Fewer high-impact failures</li>
+            <li>Predictable availability</li>
+            <li>Reduced backlog pressure</li>
+            <li>Maintenance effort aligned to value</li>
+            <li>Clear understanding of asset behaviour</li>
+            <li>Leadership confidence in operational decisions</li>
+          </ul>
+
+          <p>
+            The organisation moves from firefighting to control and from control to sustained improvement.
+          </p>
+        </div>
+      </section>
+
+      <!-- EVIDENCE -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Evidence, not promises</h2>
+
+          <p>
+            Our experience is grounded in real operating environments: energy, chemicals, distributed generation, and other
+            asset-intensive industries where failure has serious consequences.
+          </p>
         </div>
       </section>
     </main>
+
     <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+
+        <p>
+          If you want to talk through a specific operational issue, discreetly and practically, you can contact us here:
+        </p>
+
+        <ul class="list">
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:info@codor.uk">info@codor.uk</a>
+          </li>
+          <li>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/company/codor/" target="_blank" rel="noopener">
+              CODOR on LinkedIn
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <footer class="site-footer">
       <div class="container footer-inner">
         <span>© <span id="year"></span> Codor</span>
-        <span class="footer-note">Distributed power asset performance</span>
-        <nav class="footer-links">
+        <nav class="footer-links" aria-label="Footer">
           <a href="/privacy.html">Privacy</a>
-          <a href="/cookies.html">Cookies</a>
           <a href="/terms.html">Terms</a>
+          <button type="button" class="footer-link-button" data-reset-cookies>
+            Reset cookie preferences
+          </button>
         </nav>
       </div>
     </footer>
 
-
-    <script src="script.js"></script>
+    <script src="/base.js"></script>
   </body>
-  </html>
-
-
+</html>
