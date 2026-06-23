@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CODOR — Blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/base.css" />
+  
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Christopher Cody</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Aaron Dorling</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ContentTypeId msdt:dt="string">0x010100B21C768FCAA30B4690AA3FCE0AE64EFC</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/index.html" class="brand" aria-label="Codor home">
+          <span class="brand-text">CODOR<span class="brand-dot">.</span></span>
+        </a>
+
+        <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+          <span class="nav-toggle-bar"></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+          <a href="/index.html">Introduction</a>
+          <a href="/team.html">Team</a>
+          <a href="/blog.html" class="active">Blog</a>
+          <a href="/index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="kicker">Blog</p>
+          <h1>Notes from the field</h1>
+          <p class="lead">
+            Short, practical writing on reliability, operations, and performance,
+            written by people who have had to make this work in the real world.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="blog-controls">
+            <div id="tagFilters" class="tag-filters" aria-label="Blog filters">
+              <button id="clearFilters" class="filter-clear" type="button" hidden>
+                Clear filters
+              </button>
+              <div id="activeFilters" class="active-filters" aria-live="polite"></div>
+            </div>
+          </div>
+
+          <!-- JS will populate this -->
+          <div id="postGrid" class="post-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">
+      ↑
+    </button>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Codor</span>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <button type="button" class="footer-link-button" data-reset-cookies>
+            Reset cookie preferences
+          </button>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="/base.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "loss-mapping": { "label": "Loss mapping", "short": "loss mapping" },
+  "event-coding": { "label": "Event coding", "short": "event coding" },
+  "decision-support": { "label": "Decision support", "short": "decision support" },
+
+  "maintenance-systems": { "label": "Maintenance systems (CMMS/EAM)", "short": "maintenance systems" },
+  "control-systems": { "label": "Control systems (SCADA/DCS)", "short": "control systems" },
+  "operating-rhythm": { "label": "Operating rhythm", "short": "operating rhythm" },
+
+  "root-cause": { "label": "Root cause analysis", "short": "root cause" },
+  "evidence": { "label": "Evidence", "short": "evidence" },
+  "governance": { "label": "Governance", "short": "governance" }
+}

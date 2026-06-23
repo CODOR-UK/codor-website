@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mso="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>The Reliability Learning Cycle</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Orbitron:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
+<!-- Global styles -->
+<link href="/base.css" rel="stylesheet"/>
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Aaron Dorling</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Aaron Dorling</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ContentTypeId msdt:dt="string">0x010100B21C768FCAA30B4690AA3FCE0AE64EFC</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<!-- IMPORTANT:
+       - Set data-post-slug to match posts.json "slug"
+       - Set data-post-tags to comma-separated tag IDs from tags.json
+  -->
+<body data-post-slug="the-reliability-learning-cycle">
+<!-- HEADER -->
+<header class="site-header">
+<div class="container header-inner">
+<a aria-label="Codor home" class="brand" href="/index.html">
+<span class="brand-text">CODOR<span class="brand-dot">.</span></span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" class="nav-toggle">
+<span class="nav-toggle-bar"></span>
+<span class="sr-only">Toggle navigation</span>
+</button>
+<nav aria-label="Primary" class="primary-nav" id="primary-nav">
+<a href="/index.html">Introduction</a>
+<a href="/team.html">Team</a>
+<a class="active" href="/blog.html">Blog</a>
+<a href="/index.html#contact">Contact</a>
+</nav>
+</div>
+</header>
+<!-- MAIN -->
+<main>
+<!-- HERO -->
+<section class="page-hero">
+<div class="container">
+<p class="kicker">Blog</p>
+<h1>The Reliability Learning Cycle</h1>
+<p class="lead">5 Jun 2026 · Reliability</p>
+<!-- Tags auto-rendered by base.js from data-post-tags + tags.json -->
+<div class="badges" data-post-tags=""></div>
+</div>
+</section>
+<!-- CONTENT -->
+<section class="section">
+<div class="container">
+<article class="card prose"><h2>Introduction: The Missing Feedback Loop</h2>
+  <p>If learnings do not update the assumptions that govern future decisions, then the organisation has learned nothing.</p>
+  <p>When people think about sharing learnings they are typically thinking about reports which are stored in some data management system and e-mailed out to stakeholders, or stored as a repository to be visited when someone has the time.</p>
+  <p>In practice, that is all very static, people are not going to trawl through historical reports when they have a problem in their lap, or at least it will not be common. As for more non-essential e-mails, well I imagine few get read, and even less actioned in any meaningful way.</p>
+  <p>So how can this become a dynamic process?</p>
+  <p>Well the company has already made a number of assumptions about how the plant operates and should be maintained. These are the basis of all Preventive Maintenance, Condition Monitoring, and Inspection Regimes; this is still true if they have only adopted the OEM guidance without further analysis.</p>
+  <p>This is the static side of the model. To create improvement we need to recognise the second half of the model that allows us to turn organisational learning into a positive feedback loop.</p>
+  <img alt="The Reliability Learning Cycle" class="image-placeholder expandable-image" src="/images/the-reliability-learning-cycle.png"/>
+  <p>This article looks at this whole process and explains how this is a dynamic feedback loop, not a one-off exercise.</p>
+  <h2>Modelling Expected Plant Performance</h2>
+  <p>FMEA, HAZOP, RCM or other similar models are a means of understanding how equipment and systems fail to perform their required functions. Essentially they tell us how our plant and equipment degrades and stops working, and through them we can determine how and when to intervene based on available reliability data, operating data or Subject Matter Expert (SME) opinion.</p>
+  <p>This is in practice a hypothesis about how this equipment functions in this operating context. It can be a very accurate hypothesis if there is a lot of operating experience, but they might also be very theoretical. The accuracy of this hypothesis will in turn determine the effectiveness of the controls applied to mitigate or prevent the failure, such as: Training and Competency, Quality Assurance, Preventative Maintenance, Condition Monitoring, and Operating Limits.</p>
+  <p>This sets the baseline of how the plant will be operated, maintained and what type of controls and expectations we need to place on the people who operate and maintain the plant. When failure does occur this will also set the standard at which the equipment needs to be repaired to recover its performance.</p>
+  <p>All of this analysis is used to reach a risk trade-off level between availability, process safety, personal safety and cost, that the company leaders are willing to accept. We are saying that for the proposed investment in budget and time, we will see operational performance that keeps the business successful. This is not just a technical model; it is a business model of expected performance.</p>
+  <p>This is one of the most critical sets of decisions that an organisation makes, a substantial amount of the business's performance is defined with these decisions. Which is why the execution of those decisions and their effectiveness when measured against reality is business critical.</p>
+  <h2>Controlling Expected Plant Performance</h2>
+  <p>To effectively control the expected plant performance a number of controls and activities need to be established with the Engineering, Maintenance and Operations organisations.</p>
+  <p>These take the form of,</p>
+  <ul>
+    <li>Preventative Maintenance Tasks</li>
+    <li>Condition Monitoring Techniques</li>
+    <li>Inspection Techniques</li>
+    <li>Operations and Maintenance Technician competencies</li>
+    <li>Engineering standards for design, maintenance and operation</li>
+    <li>Quality assurance of maintenance and operation activities</li>
+    <li>Spare parts stocking and procurement strategies</li>
+    <li>Quality control of components</li>
+  </ul>
+  <p>Some of these items are static controls which if accurate would exist as reference materials or static decisions.</p>
+  <p>Others require specific estimates about how the combination of operational context and equipment design will affect degradation of the plant and equipment. Specifically preventative maintenance, condition monitoring and inspection all require some kind of assessment on expected or actual degradation at a given point in time so that maintenance can be executed before failure.</p>
+  <p>The activities in this section are how the organisation both estimates and controls the expected performance defined in section 1. In practice, the entire suite of controls assures plant performance, failure in any single area can start to impact every area, for example,</p>
+  <ul>
+    <li>Poor competency can invalidate a PM programme.</li>
+    <li>Poor quality control can invalidate a spares strategy.</li>
+    <li>Poor engineering standards can overwhelm maintenance activities.</li>
+    <li>Poor operating practices can create failures that no maintenance strategy can reasonably prevent.</li>
+  </ul>
+  <p>The next question is whether those assumptions survive contact with reality.</p>
+  <h2>Plant Operation (Reality Tests the Model)</h2>
+  <p>As with that great phrase “no plan survives contact with the enemy”, the plant in operation will immediately start to test the assumptions laid down in the office. This is simply because the plant is operating in a constant physical and chemical reaction which is too complex to be accurately predicted. We can only estimate its true form through discrete modelling and estimation based on experience.</p>
+  <p>This in itself is not a problem as long we expect it to be the case. The real problem arises when we see evidence that the selected strategy is not working but start to disregard it as a “one-off”. This is actually the best opportunity to improve the bottom line, as we start to learn what the plant we built actually does, not what the designs and predictions thought it would do.</p>
+  <p>The closer we can get to modelling reality the more likely we are to extract maximum value from the plant for the minimum input. Every deviation between expected and actual performance is evidence that the model can be improved.</p>
+  <p>One of the interesting points about this is the red light always flashes above the equipment which is under-maintained, we see the failures, the downtime, and the long hours worked. What we rarely see is the equipment that could do another 1,000 hours before that belt needs changing, or the greasing routine which is quietly reducing operating life by 20% because it is too frequent. Learning to look for both is critical, removing over-maintenance expenditure is what will help pay for the under-maintenance cost increases.</p>
+  <h2>Expected vs Observed Performance (Identifying the Gap)</h2>
+  <p>As we operate the plant we constantly find examples of deviations from expected performance, maybe it’s the machine that runs a little hotter than its spare, the vessel which corrodes at a slower rate than expected. Some of these are materially actionable and some are not. The trick is to understand where a gap carries value which can be realised.</p>
+  <p>Examples of this might be,</p>
+  <ul>
+    <li>PM activities where the components show little or no sign of degradation</li>
+    <li>Wear mechanisms which are degrading much slower or faster than expected</li>
+    <li>Equipment life which can be extended to reduce maintenance spend</li>
+    <li>Spares which can be ordered rather than stocked, due to advance warning of failure</li>
+    <li>New techniques which can more accurately estimate the plant's actual condition</li>
+  </ul>
+  <p>The moment we stop comparing actual performance against expected performance, the model starts to drift away from reality. The symptoms of this are,</p>
+  <ul>
+    <li>decreasing equipment reliability</li>
+    <li>longer durations for maintenance tasks</li>
+    <li>higher labour costs due to overtime</li>
+    <li>increased charges for procuring materials quickly</li>
+    <li>throwing used parts in the bin which are almost as good as the new ones</li>
+    <li>stock holdings in excess of comparable sites</li>
+    <li>ultimately lower plant availability and profitability</li>
+  </ul>
+  <p>When the feedback loop is not immediate and directly impacting tomorrow's activities then the performance gap persists or increases.</p>
+  <p>Similar assets operating at other sites can also provide useful benchmarks. Significant differences in performance often indicate that one site has developed a better understanding of the asset, or is applying different controls which warrant further investigation.</p>
+  <p>We need to use areas where the model of plant performance and equipment reliability is accurate, so that we can contrast with areas where there are over- or under-performance. This helps us to identify flawed assumptions or gaps in knowledge which represent a value gap in performance</p>
+  <p>In this way an expected failure may not warrant any deeper investigation, and an unexpected success may warrant a deep dive to understand how it can be replicated. The objective is not to find failures. The objective is to find places where reality disagrees with our expectations.</p>
+  <h2>Root Cause Analysis (Explaining the Difference)</h2>
+  <p>To identify these gaps between actual and expected performance we need to carry out some form of analysis, and this is exactly where RCA fits in. In this sense RCA is being used in its broadest sense to mean any type of investigative activity that assesses a positive or negative performance gap. It might not always have a fault tree or timeline, but if it determines the cause of a gap or what improvements are required, then this is where it lives.</p>
+  <p>Every time we ask these types of questions we are trying to quantify the gap and its cause,</p>
+  <ul>
+    <li>Why is their performance better than ours?</li>
+    <li>Wasn’t this supposed to last 3 years?</li>
+    <li>Why do we have to replace these parts? They are brand new…</li>
+  </ul>
+  <p>With any investigation we are ultimately focussing on one core assumption of our current model and determining why it is inaccurate.  Typically this will result in one of these outcomes,</p>
+  <ol>
+    <li>Known failure mode, ineffective control: The strategy was wrong.</li>
+    <li>Known failure mode, poor execution: Implementation was wrong.</li>
+    <li>Known failure mode, incorrect assumptions: The model was wrong.</li>
+    <li>Unknown failure mode: The model was incomplete.</li>
+  </ol>
+  <p>The value of an RCA is often determined by the scope of the assumption it challenges. This is why systemic failure modes are so valuable, because they have the potential to tell us where our understanding or application diverges from the requirements of reality in a chronic way.</p>
+  <p>Finding out that a key sealing location is scored allowing a leak is useful. Finding out that your maintenance inspection standard and quality assurance practices don’t protect sealing faces, or identify whether sealing locations are in good condition, is invaluable; that affects every sealing face on the site or potentially the organisation.</p>
+  <h2>Institutional Learning (Updating the Model)</h2>
+  <p>Sharing learnings is not about e-mailing an investigation report to someone, for them to maybe read and never action.</p>
+  <p>Learnings are discrete changes which need to be made to the company’s strategic documents, procedures and activities which determine our understanding of how the plant works, and how we should be interacting with it.</p>
+  <ul>
+    <li>If the failure mode was not anticipated, update the FMEA.</li>
+    <li>If the item failed early, update the maintenance strategy.</li>
+    <li>If we didn’t know how to maintain it properly, change the competency requirements or engineering standards.</li>
+  </ul>
+  <p>Through identifying gaps, determining causes and updating the underlying assumptions, the model becomes a better representation of reality. The most valuable learnings are often those which apply to multiple assets, sites or business units because they correct assumptions at the source rather than treating individual symptoms.</p>
+  <p>These validated changes should then be used to update the understanding of anyone within the organisation who relies on the same base assumptions to operate their equipment or plants.</p>
+  <p>Investigation reports become the means of explaining the performance gap, why it occurred, how it should be closed and how we prevent its recurrence. The learning is the means by which its recurrence is prevented.</p>
+  <h2>Conclusion: One System, Not Four Processes</h2>
+  <p>Here we can see the whole improvement cycle together. We start with what we think the plant and equipment should do, and how we control for that outcome and optimal performance. During the operation of the plant, reality continually tests our assumptions, identifying examples of both over- and under-performance. Through investigation we explain these deviations and determine their causes, ultimately resulting in improvements which adapt our base assumptions and improve our model of the plant and process.</p>
+  <p>As this understanding of the operating model improves we are able to redirect resources from areas of over-performance to areas of under-performance, this might not be cost-neutral but it represents the correct balancing of effort. The ultimate result should be materially improved availability, safety and profitability.</p>
+  <p>The objective is not to find failures. The objective is to find places where reality disagrees with our expectations, and then close those gaps.</p>
+  <hr/>
+</article>
+</div>
+</section>
+</main>
+<!-- BACK TO TOP -->
+<button aria-label="Back to top" class="back-to-top" id="backToTop" title="Back to top">
+      ↑
+    </button>
+<!-- FOOTER -->
+<footer class="site-footer">
+<div class="container footer-inner">
+<span>© <span id="year"></span> Codor</span>
+<nav aria-label="Footer" class="footer-links">
+<a href="/privacy.html">Privacy</a>
+<a href="/terms.html">Terms</a>
+<button class="footer-link-button" data-reset-cookies="" type="button">
+            Reset cookie preferences
+          </button>
+</nav>
+</div>
+</footer>
+<!-- Global JS -->
+<script src="/base.js"></script>
+</body>
+</html>

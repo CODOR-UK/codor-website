@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "rca-implementation-problem",
+    "title": "You Don’t Have an RCA Problem. You Have an Implementation Problem",
+    "date": "2026-04-30",
+    "category": "Reliability",
+    "excerpt": "Investigations only create value when recommendations are implemented, verified, and shown to reduce recurrence. Otherwise RCA becomes documentation, not learning.",
+    "tags": ["root-cause", "evidence", "governance"]
+  },
+  {
+  "slug": "fixing-first-failure-preventing-next-one",
+  "title": "Fixing the First Failure is Valuable. Preventing the Next One is Priceless.",
+  "date": "2026-06-04",
+  "category": "Reliability",
+  "excerpt": "Shared learnings multiply the value of investigations by applying proven solutions across fleets, sites and portfolios before repeat failures occur.",
+  "tags": ["root-cause", "reliability", "governance"]
+  },
+  {
+  "slug": "the-reliability-learning-cycle",
+  "title": "The Reliability Learning Cycle",
+  "date": "2026-06-12",
+  "category": "Reliability",
+  "excerpt": "FMEA, maintenance strategies, RCA and institutional learning are not separate activities. They form a continuous cycle that compares expectations against reality and updates the assumptions that govern future decisions.",
+  "tags": ["root-cause", "reliability", "governance"]
+}
+]
